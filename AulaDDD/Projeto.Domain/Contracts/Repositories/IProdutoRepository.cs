@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Projeto.Domain.Contracts.Repositories
 {
-    public interface IProdutoRepository : IBaseRepository<Categoria>
+    public interface IProdutoRepository : IBaseRepository<Produto>
     {
     }
 }

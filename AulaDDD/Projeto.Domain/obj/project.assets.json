@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Coti-Maq10\\Desktop\\lRibeiro\\AulaDDD\\Projeto.Domain\\Projeto.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Coti-Maq10\\Desktop\\lRibeiro\\DDDFirst\\AulaDDD\\Projeto.Domain\\Projeto.Domain.csproj",
       "projectName": "Projeto.Domain",
-      "projectPath": "C:\\Users\\Coti-Maq10\\Desktop\\lRibeiro\\AulaDDD\\Projeto.Domain\\Projeto.Domain.csproj",
+      "projectPath": "C:\\Users\\Coti-Maq10\\Desktop\\lRibeiro\\DDDFirst\\AulaDDD\\Projeto.Domain\\Projeto.Domain.csproj",
       "packagesPath": "C:\\Users\\Coti-Maq10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Coti-Maq10\\Desktop\\lRibeiro\\AulaDDD\\Projeto.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Coti-Maq10\\Desktop\\lRibeiro\\DDDFirst\\AulaDDD\\Projeto.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

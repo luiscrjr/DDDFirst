@@ -12,3 +12,17 @@ C:\Users\Coti-Maq10\Desktop\lRibeiro\AulaDDD\Projeto.Application\obj\Debug\netco
 C:\Users\Coti-Maq10\Desktop\lRibeiro\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.RazorTargetAssemblyInfo.cache
 C:\Users\Coti-Maq10\Desktop\lRibeiro\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.dll
 C:\Users\Coti-Maq10\Desktop\lRibeiro\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.pdb
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\bin\Debug\netcoreapp2.1\Projeto.Application.deps.json
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\bin\Debug\netcoreapp2.1\Projeto.Application.runtimeconfig.json
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\bin\Debug\netcoreapp2.1\Projeto.Application.runtimeconfig.dev.json
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\bin\Debug\netcoreapp2.1\Projeto.Application.dll
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\bin\Debug\netcoreapp2.1\Projeto.Application.pdb
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.csprojAssemblyReference.cache
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.csproj.CoreCompileInputs.cache
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.RazorAssemblyInfo.cache
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.RazorAssemblyInfo.cs
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.AssemblyInfoInputs.cache
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.AssemblyInfo.cs
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.RazorTargetAssemblyInfo.cache
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.dll
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Application\obj\Debug\netcoreapp2.1\Projeto.Application.pdb
