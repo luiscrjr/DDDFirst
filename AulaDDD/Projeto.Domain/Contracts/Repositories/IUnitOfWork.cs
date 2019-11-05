@@ -10,11 +10,11 @@ namespace Projeto.Domain.Contracts.Repositories
         void Commit();
         void Rollback();
 
-        ICategoriaRepository CategoriaRepository { get; set; }
-        IContatoRepository ContatoRepository { get; set; }
-        IEnderecoRepository EnderecoRepository { get; set; }
-        IFornecedorRepository FornecedorRepository { get; set; }
-        IMarcaRepository MarcaRepository { get; set; }
-        IProdutoRepository ProdutoRepository { get; set; }
+        ICategoriaRepository CategoriaRepository { get;}
+        IContatoRepository ContatoRepository { get;}
+        IEnderecoRepository EnderecoRepository { get;}
+        IFornecedorRepository FornecedorRepository { get;}
+        IMarcaRepository MarcaRepository { get;}
+        IProdutoRepository ProdutoRepository { get;}
     }
 }

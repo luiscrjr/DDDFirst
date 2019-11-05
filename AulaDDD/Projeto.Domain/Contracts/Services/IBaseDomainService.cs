@@ -12,7 +12,7 @@ namespace Projeto.Domain.Contracts.Services
         void Remover(AggregateModel obj);
 
         List<AggregateModel> ObterTodos();
-        AggregateModel ObterPorId();
+        AggregateModel ObterPorId(int id);
 
     }
 }

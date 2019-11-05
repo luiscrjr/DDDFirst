@@ -1,4 +1,6 @@
-﻿using Projeto.Domain.Contracts.Repositories;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using Projeto.Domain.Contracts.Repositories;
+using Projeto.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,31 +9,44 @@ namespace Projeto.Infra.Data.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
+        //atributo para a classe de contexto
+        private readonly DataContext dataContext;
+        private IDbContextTransaction transaction;
+
+
+        //construtor para receber o contexto como argumento
+        public UnitOfWork(DataContext dataContext)
+        {
+            this.dataContext = dataContext;
+        }
+
         public void BeginTransaction()
         {
-            throw new NotImplementedException();
+            transaction = dataContext.Database.BeginTransaction();
         }
 
         public void Commit()
         {
-            throw new NotImplementedException();
+            transaction.Commit();
         }
 
         public void Rollback()
         {
-            throw new NotImplementedException();
+            transaction.Rollback();
         }
 
-        public ICategoriaRepository CategoriaRepository { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IContatoRepository ContatoRepository { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IEnderecoRepository EnderecoRepository { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IFornecedorRepository FornecedorRepository { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IMarcaRepository MarcaRepository { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public IProdutoRepository ProdutoRepository { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public ICategoriaRepository CategoriaRepository => new CategoriaRepository(dataContext);
+        public IContatoRepository ContatoRepository => new ContatoRepository(dataContext);
+        public IEnderecoRepository EnderecoRepository => new EnderecoRepository(dataContext);
+        public IFornecedorRepository FornecedorRepository => new FornecedorRepository(dataContext);
+        public IMarcaRepository MarcaRepository => new MarcaRepository(dataContext);
+        public IProdutoRepository ProdutoRepository => new ProdutoRepository(dataContext);
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            dataContext.Dispose();
         }
+
+       
     }
 }

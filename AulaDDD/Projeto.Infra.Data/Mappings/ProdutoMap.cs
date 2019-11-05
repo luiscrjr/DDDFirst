@@ -11,7 +11,8 @@ namespace Projeto.Infra.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            throw new NotImplementedException();
+            //chave primaria
+            builder.HasKey(p => p.Id);
         }
     }
 }

@@ -11,7 +11,13 @@ namespace Projeto.Infra.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Marca> builder)
         {
-            throw new NotImplementedException();
+            // chave primária
+            builder.HasKey(m => m.Id);
+
+            //mapeamento do relacionamento 1p1
+            builder.HasOne(m => m.Produto)
+                .WithOne(p => p.Marca)
+                .HasForeignKey<Marca>(m => m.IdProduto); //chave estrangeira
         }
     }
 }

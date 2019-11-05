@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Projeto.Application
 {
@@ -25,6 +26,22 @@ namespace Projeto.Application
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            // TODO(LR): Terminar o resolver
+            // DependencyResolver.Register(services, null);
+
+            services.AddSwaggerGen(
+                swagger =>
+                {
+                    swagger.SwaggerDoc("v1",
+                        new Info
+                        {
+                            Title = "API de controle de Produtos e Fornecedores",
+                            Version = "v1",
+                            Description = "Projeto desenvolvido do projeto DDD"
+                        });
+                }
+                );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,6 +51,15 @@ namespace Projeto.Application
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(
+                swagger =>
+                {
+                    swagger.SwaggerEndpoint("/swagger/v1/swagger.json", "Projeto");
+                }
+                );
+
 
             app.UseMvc();
         }
