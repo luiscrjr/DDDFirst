@@ -10,3 +10,5 @@ C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Infra.Data\bin\Deb
 C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Infra.Data\obj\Debug\netcoreapp2.1\Projeto.Infra.Data.csproj.CopyComplete
 C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Infra.Data\obj\Debug\netcoreapp2.1\Projeto.Infra.Data.dll
 C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Infra.Data\obj\Debug\netcoreapp2.1\Projeto.Infra.Data.pdb
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Infra.Data\bin\Debug\netcoreapp2.1\Projeto.Infra.Data.runtimeconfig.json
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Infra.Data\bin\Debug\netcoreapp2.1\Projeto.Infra.Data.runtimeconfig.dev.json

@@ -11,6 +11,14 @@ namespace Projeto.Infra.Data.Context
     //REGRA1) Herdar a classe DbContext
     public class DataContext : DbContext
     {
+
+        //construtor co entrada de argumentos
+
+        public DataContext(DbContextOptions<DataContext> builder) : base(builder)
+        {
+
+        }
+
         //REGRA2) Sobrescrever (override) do método OnModelCreating
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

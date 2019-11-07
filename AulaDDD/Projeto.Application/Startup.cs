@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using AutoMapper;
 
 namespace Projeto.Application
 {
@@ -27,8 +28,11 @@ namespace Projeto.Application
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            //registrar o uso do automapper
+            services.AddAutoMapper(typeof(Startup));
+
             // TODO(LR): Terminar o resolver
-            // DependencyResolver.Register(services, null);
+            DependencyResolver.Register(services, Configuration);
 
             services.AddSwaggerGen(
                 swagger =>

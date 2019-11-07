@@ -1,8 +1,10 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Projeto.Domain.Contracts.Repositories;
 using Projeto.Domain.Contracts.Services;
 using Projeto.Domain.Services;
+using Projeto.Infra.Data.Context;
 using Projeto.Infra.Data.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,6 +19,12 @@ namespace Projeto.Application
 
         public static void Register(IServiceCollection services, IConfiguration configuration)
         {
+            //mapear a injeção de dependência para a classe DataContext
+            services.AddDbContext<DataContext>(
+                options => options.UseSqlServer(configuration.GetConnectionString("AulaDDD"))
+                );
+
+
             services.AddTransient<IFornecedorDomainService, FornecedorDomainService>();
             services.AddTransient<IProdutoDomainService, ProdutoDomainService>();
 

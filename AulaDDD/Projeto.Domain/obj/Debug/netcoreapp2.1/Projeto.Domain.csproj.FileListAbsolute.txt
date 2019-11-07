@@ -15,3 +15,4 @@ C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Domain\obj\Debug\n
 C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Domain\obj\Debug\netcoreapp2.1\Projeto.Domain.AssemblyInfo.cs
 C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Domain\obj\Debug\netcoreapp2.1\Projeto.Domain.dll
 C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Domain\obj\Debug\netcoreapp2.1\Projeto.Domain.pdb
+C:\Users\Coti-Maq10\Desktop\lRibeiro\DDDFirst\AulaDDD\Projeto.Domain\obj\Debug\netcoreapp2.1\Projeto.Domain.csprojAssemblyReference.cache
