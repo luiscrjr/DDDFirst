@@ -8,13 +8,15 @@ using Projeto.Application.Models; // camada de modelo de dados
 using AutoMapper;
 using Projeto.Domain.Contracts.Services;
 using Projeto.Domain.AggregatesModel.FornecedorAggregate;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Projeto.Application.Controllers
 {
+    [Authorize("Bearer")]
     [Route("api/[controller]")]
     [ApiController]
     public class FornecedorController : ControllerBase
-    {
+    {   
         [HttpPost]
         public IActionResult Post([FromBody] FornecedorCadastroModel model,
             [FromServices] IMapper mapper,
